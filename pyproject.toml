@@ -1,0 +1,11 @@
+[project]
+name = "pytarin"
+version = "0.0.1"
+license = {file = "LICENSE"}
+description = "Tool to update self defined packages of software or other formats."
+readme = "README.md"
+
+dependencies = []
+
+[project.scripts]
+pytarin = "pytarin.cli:app"
